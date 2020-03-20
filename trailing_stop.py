@@ -2,12 +2,7 @@
 
 # trailing_stop.py
 
-# Install python package:
-# > pip install https://github.com/swgr424/Robinhood/archive/master.zip
-# swgr424 includes a PR for gathering quotes for multiple symbols at once
-# Wait...
-
-from Robinhood import Robinhood
+from pyrh import Robinhood
 import time
 import argparse
 from six.moves.urllib.parse import unquote
@@ -19,7 +14,7 @@ from six.moves.urllib.parse import unquote
 
 Example:
 
-    ./trailing_stop.py -u=cardinalnumber -p=Ujp43wJi0fsajk54ew
+    ./trailing_stop.py -u=jcoffi -p=Ujp43wJi0fsajk54ew
 
 '''
 
